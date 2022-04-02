@@ -5,6 +5,8 @@ public class Task1 {
         displayWordUsingDecimalFormat ();
         System.out.println();
         displayWordUsingBinaryFormat ();
+        System.out.println();
+        displayWordUsingHexaFormat ();
 
 
     }
@@ -24,7 +26,7 @@ public class Task1 {
         System.out.print(d);
         System.out.print(a);
     }
-    private static void displayWordUsingBinaryFormat (){
+    private static void displayWordUsingHexaFormat (){
         char s = 0x53;
         char d = 0x44;
         char a = 0x41;
