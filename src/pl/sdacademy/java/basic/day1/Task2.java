@@ -9,7 +9,7 @@ public class Task2 {
         float circumference =  calculateCirumFerenceOfACircle(radius);
         float area = areaOfCircle(radius);
 
-        
+
         System.out.println("Circum: "+ calculateCirumFerenceOfACircle(radius));
         System.out.println("Area: " +area);
     }
