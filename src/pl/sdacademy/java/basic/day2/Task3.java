@@ -12,7 +12,7 @@ public class Task3 {
 
     }
     private static int getIndex(String input, String word){
-        if(StringHelper.isValid(input) && StringHelper.isValid) {
+        if(StrinhHelper.isValid(input) && StrinhHelper.isValid(word)) {
             boolean result = input.contains(word);
             if (result){
                 return input.indexOf(word);
