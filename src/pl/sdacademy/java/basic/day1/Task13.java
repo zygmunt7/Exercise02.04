@@ -1,2 +1,4 @@
-package pl.sdacademy.java.basic.day1;public class Task13 {
+package pl.sdacademy.java.basic.day1;
+
+public class Task13 {
 }
