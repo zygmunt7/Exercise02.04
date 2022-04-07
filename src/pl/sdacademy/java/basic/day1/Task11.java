@@ -18,17 +18,15 @@ public class Task11 {
                 do {
                     System.out.print("Please insert digit: ");
                     int myDigit = scanner.nextInt();
-
-                    if (myDigit > randomdigit) {
-                        System.out.println("Too much!");
-                    }
-                    if(myDigit < randomdigit) {
-                        System.out.println("Not enought!");
-                    }
                     if (myDigit == randomdigit){
                         System.out.println("Bingo");
-                        System.exit(0);
+                        break;
+                    }else if (myDigit > randomdigit) {
+                        System.out.println("Too much!");
+                    }else if(myDigit < randomdigit) {
+                        System.out.println("Not enought!");
                     }
+
                 }while (randomdigit !=0);
 
 
